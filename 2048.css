@@ -1,0 +1,142 @@
+body {
+    background-color: #faf8ef;
+    font-family: 'Clear Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #776e65;
+    font-size: 70px;
+    margin: 0;
+    display: flex;
+    justify-items: baseline;
+}
+
+#setting {
+    justify-items: end;
+    margin: 20px 0 0 40px;
+}
+
+#scores, #actions {
+    display: flex;
+}
+
+#scores b {
+    color: #eee2d2;
+    font-size: 12px;
+}
+
+#score, #best {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#scoreBoard, #bestScore {
+    background-color: #bbada0;
+    margin: 0 0 0 5px;
+    padding: 0px 7px 7px 7px;
+    border-radius: 4px;
+}
+
+#body {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: #bbada0;
+    border-radius: 4px;
+    margin: 25px 0 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #cdc1b4;
+    align-content: center;
+    font-size: 55px;
+    border-radius: 4px;
+}
+
+.x2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.x4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.x8 {
+    background-color: #f2b179;
+    color: white;
+}
+
+.x16 {
+    background-color: #f59563;
+    color: white;
+}
+
+.x32 {
+    background-color: #f67c5f;
+    color: white;
+}
+
+.x64 {
+    background-color: #f65e3b;
+    color: white;
+}
+
+.x128 {
+    background-color: #edcf72;
+    color: white;
+}
+
+.x256 {
+    background-color: #edcc61;
+    color: white;
+}
+
+.x512 {
+    background-color: #edc850;
+    color: white;
+}
+
+.x1024 {
+    background-color: #edc53f;
+    color: white;
+}
+
+.x2048 {
+    background-color: #edc22e;
+    color: white;
+}
+
+.bigTile {
+    background-color: #3d3a32;
+    color: white;
+}
+
+.tile5x5 {
+    background-color: #5b61c7;
+    color: white;
+}
